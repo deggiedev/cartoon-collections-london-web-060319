@@ -7,8 +7,8 @@ end
 def summon_captain_planet(array)
   array.each do |calls|
     calls.capitalize
-    string = array.join("!")
-    string.slice
+    string = array.join("! ")
+    array = string.split
   end
   array
 end
