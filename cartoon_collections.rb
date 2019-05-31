@@ -5,11 +5,12 @@ def roll_call_dwarves(array)
 end
 require 'pry'
 def summon_captain_planet(array)
+  calls_array = []
   array.each do |calls|
     string = array.split
-    string.capitalize
+    calls_array = string.capitalize
   end
-  array
+  calls_array = 
 end
 binding.pry 
 def long_planeteer_calls# code an argument here
