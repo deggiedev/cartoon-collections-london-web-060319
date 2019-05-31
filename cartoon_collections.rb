@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   calls_array = []
   array.each do |calls|
     string = calls.split
-    string.capitalize
+    string.upcase
     return string
   end
  
