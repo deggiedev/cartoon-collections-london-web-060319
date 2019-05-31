@@ -11,6 +11,7 @@ def summon_captain_planet(array)
     calls_array = string.capitalize
   end
   calls_array 
+end
 binding.pry 
 
 def long_planeteer_calls# code an argument here
