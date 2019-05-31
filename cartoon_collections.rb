@@ -7,7 +7,8 @@ require 'pry'
 def summon_captain_planet(array)
   calls_array = []
   array.each do |calls|
-    puts "#{calls.capitalize!}" + "!"
+    
+    "#{calls.capitalize!}"
   end
 end
 binding.pry 
