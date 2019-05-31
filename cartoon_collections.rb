@@ -10,9 +10,9 @@ def summon_captain_planet(array)
     string = array.split
     calls_array = string.capitalize
   end
-  calls_array = 
-end
+  calls_array 
 binding.pry 
+
 def long_planeteer_calls# code an argument here
   # Your code here
 end
