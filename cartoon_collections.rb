@@ -7,7 +7,7 @@ require 'pry'
 def summon_captain_planet(array)
   calls_array = []
   array.each do |calls|
-    "#{calls.upcase!}"
+    "#{calls.capitalize!}"
   end
  
 end
