@@ -6,7 +6,8 @@ end
 require 'pry'
 def summon_captain_planet(array)
   array.each do |calls|
-    calls.capitalize
+    string = array.split
+    string.capitalize
   end
   array
 end
