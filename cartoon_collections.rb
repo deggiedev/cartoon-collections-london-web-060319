@@ -9,6 +9,8 @@ def summon_captain_planet(array)
   array.each do |calls|
     calls_array << "#{calls.capitalize!}"
   end
+ string = calls_array.split
+ calls_array = string.join("! ")
  
 end
 binding.pry 
