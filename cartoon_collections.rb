@@ -7,7 +7,8 @@ require 'pry'
 def summon_captain_planet(array)
   calls_array = []
   array.each do |calls|
-    calls.split("")
+    string = calls.split("")
+    return string
   end
  
 end
