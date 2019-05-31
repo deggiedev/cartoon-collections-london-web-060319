@@ -3,16 +3,14 @@ def roll_call_dwarves(array)
     puts "#{index + 1} #{dwarf}" 
   end  
 end
-require 'pry'
+
 def summon_captain_planet(array)
   calls_array = []
   array.each do |calls|
-    
     calls_array.push("#{calls.capitalize!}!")
   end
   calls_array
 end
-binding.pry 
 
 def long_planeteer_calls# code an argument here
   # Your code here
