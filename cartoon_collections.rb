@@ -6,9 +6,7 @@ end
 
 def summon_captain_planet(array)
   array.each do |calls|
-    calls.capitalize
-    string = array.join("! ")
-    array = string.split
+    #{calls}.capitalize
   end
   array
 end
